@@ -1,0 +1,25 @@
+{
+    "name": "trudslev/pakkelabels-php-sdk",
+    "description": "API implementation for pakkelabels.dk v2.",
+    "version": "1.0.0",
+    "keywords": ["template", "composer", "package"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sune Trudslev",
+            "email": "sune@trudslev.net"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.0"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "trudslev\\pakkelabels\\": "src/"
+        }
+    }
+}
