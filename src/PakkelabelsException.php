@@ -2,7 +2,7 @@
 
 namespace trudslev\pakkelabels;
 
-class PakkelabelsException extends Exception
+class PakkelabelsException extends \Exception
 {
 	public function __construct($message){
 		parent::__construct($message);
