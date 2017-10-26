@@ -1,5 +1,7 @@
 <?php
-require_once('PakkelabelsException.php');
+
+namespace trudslev\pakkelabels;
+
 class Pakkelabels {
     const API_ENDPOINT = 'https://app.pakkelabels.dk/api/public/v2';
     const VERSION = '1.2';
